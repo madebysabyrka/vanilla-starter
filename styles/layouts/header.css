@@ -14,11 +14,6 @@
   line-height: 1;
   letter-spacing: -0.03em;
   text-decoration: none;
-
-  &:hover {
-    color: var(--color-light);
-    opacity: 0.7;
-  }
 }
 
 @media (max-width: 520px) {
