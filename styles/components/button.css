@@ -1,0 +1,38 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+  height: var(--button-height);
+  padding-inline: 24px;
+  color: var(--color-dark);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  background-color: var(--color-light);
+  border: var(--border);
+  border-radius: var(--border-radius);
+
+  &:hover {
+    color: var(--color-dark);
+    background-color: var(--color-light-gray);
+    border-color: var(--color-light-gray);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  &.transparent {
+    color: var(--color-light);
+    background-color: transparent;
+    border-color: var(--color-dark-gray);
+
+    &:hover {
+      color: var(--color-light);
+      background-color: rgba(255 255 255 / 0.06);
+      border-color: var(--color-dark-gray);
+    }
+  }
+}
