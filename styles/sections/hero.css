@@ -11,7 +11,7 @@
 .hero-title {
   max-width: 900px;
   color: var(--color-light);
-  font-size: clamp(56px, 8vw, 120px);
+  font-size: clamp(54px, 8vw, 120px);
   font-weight: 700;
   line-height: 0.95;
   letter-spacing: -0.05em;
@@ -22,4 +22,10 @@
   color: var(--color-light-gray);
   font-size: 18px;
   line-height: 1.6;
+}
+
+@media (max-width: 520px) {
+  .hero {
+    justify-content: end;
+  }
 }
