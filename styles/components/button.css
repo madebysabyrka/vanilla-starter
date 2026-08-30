@@ -36,3 +36,15 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .button {
+    padding-inline: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    padding-inline: 12px;
+  }
+}
